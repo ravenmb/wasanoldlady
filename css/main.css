@@ -1,0 +1,44 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Oswald');
+/* font-family: 'Arvo', serif;
+font-family: 'Oswald', sans-serif; */
+
+body {font-family: 'Arvo', serif;
+      background: linear-gradient(to bottom, #adebeb 0%, #ffffcc 50%, #ffcc66 92%, #e60000 100%);
+      color: white;}
+
+h1 {
+          text-shadow: 3px 2px #29a3a3;
+          padding: 0px;
+          margin: 0px;
+      }
+
+#counter {border: 1px solid green;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          margin: 0px;
+          padding: 10px;
+          width: 200px;
+          height: 100px;
+          line-height: 100px;
+          text-align: center;
+        }
+
+#fly {border: 1px solid green;
+          position: absolute;
+          top: 800px;
+          left: 50%;
+          width: 35px;
+          height:31px;
+        }
+
+#canvas {
+  border: 1px solid blue;
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  height: 10000px;
+  padding: 0px;
+}
