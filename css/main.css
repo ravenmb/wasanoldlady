@@ -14,31 +14,56 @@ h1 {
           margin: 0px;
       }
 
-#counter {border: 1px solid green;
+#counter {
+          /* border: 1px solid green; */
           position: absolute;
           top: 0px;
           left: 0px;
           margin: 0px;
-          padding: 10px;
-          width: 200px;
-          height: 100px;
-          line-height: 100px;
-          text-align: center;
+          padding: 20px;
+          width: 250px;
+          height: 120px;
+          text-align: left;
+          line-height: 50px;
         }
 
-#fly {border: 1px solid green;
+#lady {
+          /*  border: 1px solid green; */
+            position: absolute;
+            top: -70px;
+            left: 180px;
+            margin: 0px;
+            padding: 0px;
+            width: 620px;
+            height: 550px;
+            z-index: 10;
+}
+
+#fly {
+          /* border: 1px solid green; */
           position: absolute;
           top: 800px;
-          left: 50%;
+          left: 435px;
           width: 35px;
           height:31px;
+          z-index: 2;
         }
 
+#spider {
+          /* border: 1px solid green; */
+          position: absolute;
+          top: 1400px;
+          left: 415px;
+          width: 80px;
+          height:120px;
+          z-index: 3;
+                }
+
 #canvas {
-  border: 1px solid blue;
-  position: relative;
-  margin: 0 auto;
-  width: 800px;
-  height: 10000px;
-  padding: 0px;
+          /* border: 1px solid blue; */
+          position: relative;
+          margin: 0 auto;
+          width: 800px;
+          height: 10000px;
+          padding: 0px;
 }
