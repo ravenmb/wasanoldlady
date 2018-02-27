@@ -66,7 +66,7 @@ h1, h2 {
 #spider {
           /* border: 1px solid green; */
           position: absolute;
-          top: 1400px;
+          top: 1600px;
           left: 415px;
           width: 80px;
           height:120px;
@@ -76,7 +76,7 @@ h1, h2 {
 #bird {
       /* border: 1px solid green; */
          position: absolute;
-         top: 2200px;
+         top: 2400px;
          left: 280px;
          width: 300px;
          height:199px;
@@ -86,13 +86,43 @@ h1, h2 {
 #cat {
       /* border: 1px solid green; */
       position: absolute;
-      top: 3000px;
+      top: 3800px;
       left: 300px;
       width: 275px;
       height: 269px;
       z-index: 5;
               }
-              
+
+#dog {
+      border: 1px solid green;
+      position: absolute;
+      top: 4800px;
+      left: 300px;
+      width: 280px;
+      height: 325px;
+      z-index: 6;
+          }
+
+#cow {
+      border: 1px solid green;
+      position: absolute;
+      top: 6000px;
+      left: 270px;
+      width: 325px;
+      height: 650px;
+      z-index: 7;
+            }
+
+#horse {
+      border: 1px solid green;
+      position: absolute;
+      top: 8500px;
+      left: 255px;
+      width: 350px;
+      height: 850px;
+      z-index: 8;
+              }
+
 #canvas {
           /* border: 1px solid blue; */
           position: relative;
