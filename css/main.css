@@ -8,11 +8,12 @@ body {font-family: 'Arvo', serif;
       background: linear-gradient(to bottom, #adebeb 0%, #ffffcc 50%, #ffcc66 92%, #e60000 100%);
       color: white;}
 
-h1 {
+h1, h2 {
           text-shadow: 3px 2px #29a3a3;
           padding: 0px;
           margin: 0px;
       }
+
 
 #counter {
           /* border: 1px solid green; */
@@ -26,6 +27,19 @@ h1 {
           text-align: left;
           line-height: 50px;
         }
+
+#story {
+          border: 1px solid green;
+          position: absolute;
+          top: 375px;
+          left: 650px;
+          margin: 0px;
+          padding: 20px;
+          width: 250px;
+          height: 250px;
+          text-align: right;
+          line-height: 40px;
+                }
 
 #lady {
           /*  border: 1px solid green; */
@@ -59,6 +73,26 @@ h1 {
           z-index: 3;
                 }
 
+#bird {
+      /* border: 1px solid green; */
+         position: absolute;
+         top: 2200px;
+         left: 280px;
+         width: 300px;
+         height:199px;
+         z-index: 4;
+                }
+
+#cat {
+      /* border: 1px solid green; */
+      position: absolute;
+      top: 3000px;
+      left: 300px;
+      width: 275px;
+      height: 269px;
+      z-index: 5;
+              }
+              
 #canvas {
           /* border: 1px solid blue; */
           position: relative;
