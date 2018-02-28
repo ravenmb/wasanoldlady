@@ -29,14 +29,14 @@ h1, h2 {
         }
 
 #story {
-          border: 1px solid green;
+          /* border: 1px solid green; */
           position: absolute;
-          top: 375px;
-          left: 650px;
+          top: 355px;
+          left: 500px;
           margin: 0px;
           padding: 20px;
-          width: 250px;
-          height: 250px;
+          width: 350px;
+          height: auto;
           text-align: right;
           line-height: 40px;
                 }
@@ -44,7 +44,7 @@ h1, h2 {
 #lady {
           /*  border: 1px solid green; */
             position: absolute;
-            top: -70px;
+            top: 0px;
             left: 180px;
             margin: 0px;
             padding: 0px;
