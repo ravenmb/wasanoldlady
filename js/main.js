@@ -26,10 +26,12 @@ story.style.top = (fromTop + 355) + "px";
 if(fromTop > 0 && fromTop < 550){
   counter.innerHTML = "There was an Old Lady...";
   counter.style.backgroundColor="transparent";
+  //counter.style.color="white";
   story.innerHTML = "who swallowed a fly.<br /> (scroll &#8595;)";
 }else if(fromTop > 550 && fromTop < 950){
   counter.innerHTML = "I don't know why...";
   counter.style.backgroundColor="#ff8080";
+  //counter.style.color="#ff8080";
   ladyimg.src = 'images/old-lady-closed.png';
   story.innerHTML = "she swallowed a fly.<br />Perhaps she'll die.";
 }else if(fromTop > 950 && fromTop < 1450){
