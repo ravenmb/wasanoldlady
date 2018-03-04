@@ -40,11 +40,11 @@ h1, h2 {
           border: 3px solid white;
           box-shadow: 3px 2px #29a3a3;
           position: absolute;
-          top: 355px;
+          top: 315px;
           left: 575px;
           margin: 0px;
           padding: 20px;
-          width: 325px;
+          width: 310px;
           height: auto;
           text-align: right;
           line-height: 40px;
@@ -62,11 +62,16 @@ h1, h2 {
             z-index: 10;
 }
 
+#holder {
+     position: fixed;
+     top: 0px;
+}
+
 #fly {
           /* border: 1px solid green; */
           position: absolute;
-          top: 800px;
-          left: 445px;
+          top: 1000px;
+          left: 465px;
           width: 35px;
           height:31px;
           z-index: 2;
@@ -95,7 +100,7 @@ h1, h2 {
 #cat {
       /* border: 1px solid green; */
       position: absolute;
-      top: 3550px;
+      top: 3400px;
       left: 360px;
       width: 220px;
       height: 215px;
@@ -105,39 +110,39 @@ h1, h2 {
 #dog {
       /* border: 1px solid green; */
       position: absolute;
-      top: 4700px;
+      top: 4800px;
       left: 340px;
       width: 250px;
       height: 231px;
       z-index: 6;
           }
-          
+
 #goat {
-      border: 1px solid green;
+      /* border: 1px solid green; */
       position: absolute;
-      top: 5800px;
-      left: 340px;
-      width: 250px;
-      height: 231px;
+      top: 6000px;
+      left: 330px;
+      width: 275px;
+      height: 378px;
       z-index: 7;
 }
 
 #cow {
       border: 1px solid green;
       position: absolute;
-      top: 6500px;
-      left: 270px;
+      top: 7500px;
+      left: 300px;
       width: 325px;
-      height: 650px;
+      height: 425px;
       z-index: 8;
             }
 
 #horse {
       border: 1px solid green;
       position: absolute;
-      top: 8500px;
-      left: 255px;
+      top: 8900px;
+      left: 285px;
       width: 350px;
-      height: 850px;
+      height: 500px;
       z-index: 9;
               }
