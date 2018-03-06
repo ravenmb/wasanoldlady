@@ -8,19 +8,24 @@ body {font-family: 'Arvo', serif;
       background: linear-gradient(to bottom, #adebeb 0%, #ffffcc 50%, #ffcc66 92%, #e60000 100%);
       color: white;}
 
-h1, h2 {
+h1, h2, h3, h4 {
           text-shadow: 3px 2px #29a3a3;
           padding: 0px;
           margin: 0px;
       }
 
+h3 {font-size: .85em;
+    line-height: 1.25em;
+    color: white;}
+
+
 #canvas {
-                /* border: 1px solid blue; */
-                position: relative;
-                margin: 0 auto;
-                width: 900px;
-                height: 10000px;
-                padding: 0px;
+          /* border: 1px solid blue; */
+          position: relative;
+          margin: 0 auto;
+          width: 900px;
+          height: 10000px;
+          padding: 0px;
       }
 #counter {
           border: 3px solid white;
@@ -33,21 +38,23 @@ h1, h2 {
           width: 200px;
           height: auto;
           text-align: left;
-          line-height: 50px;
+          line-height: 45px;
+          background-color: #adebeb;
         }
 
 #storycontainer {
           border: 3px solid white;
           box-shadow: 3px 2px #29a3a3;
           position: absolute;
-          top: 315px;
+          top: 320px;
           left: 575px;
           margin: 0px;
           padding: 20px;
           width: 310px;
           height: auto;
           text-align: right;
-          line-height: 40px;
+          line-height: 35px;
+          background-color: #adebeb;
                 }
 
 #lady {
@@ -60,11 +67,6 @@ h1, h2 {
             width: 620px;
             height: 550px;
             z-index: 10;
-}
-
-#holder {
-     position: fixed;
-     top: 0px;
 }
 
 #fly {
@@ -91,7 +93,7 @@ h1, h2 {
       /* border: 1px solid green; */
          position: absolute;
          top: 2400px;
-         left: 350px;
+         left: 380px;
          width: 200px;
          height:160px;
          z-index: 4;
@@ -128,21 +130,88 @@ h1, h2 {
 }
 
 #cow {
-      border: 1px solid green;
+    /*  border: 1px solid green; */
       position: absolute;
       top: 7500px;
-      left: 300px;
-      width: 325px;
-      height: 425px;
+      left: 315px;
+      width: 300px;
+      height: 462px;
       z-index: 8;
             }
 
 #horse {
-      border: 1px solid green;
+    /*  border: 1px solid green; */
       position: absolute;
       top: 8900px;
-      left: 285px;
-      width: 350px;
-      height: 500px;
+      left: 295px;
+      width: 325px;
+      height: 547px;
       z-index: 9;
               }
+#flyfly {
+        position: absolute;
+        top: 215px;
+        /* left: -10px; */
+        left: -500px;
+        }
+
+#spiderfly {
+        position: absolute;
+        top: 225px;
+        /* left: -15px; */
+        left: -500px;
+        }
+
+#birdfly {
+        position: absolute;
+        top: 245px;
+        /* left: -40px; */
+        left: -500px;
+        }
+
+#catfly {
+        position: absolute;
+        top: 290px;
+        /* left: -40px; */
+        left: -500px;
+          }
+#dogfly {
+          position: absolute;
+          top: 365px;
+          /* left: -60px; */
+          left: -500px;
+          }
+
+#goatfly {
+          position: absolute;
+          top: 435px;
+          /* left: -65px; */
+          left: -500px;
+          }
+
+#cowfly {
+          position: absolute;
+          top: 515px;
+          /* left: -80px; */
+          left: -500px;
+            }
+
+#horsefly {
+          position: absolute;
+          top: 585px;
+          /* left: -115px; */
+          left: -500px;
+            }
+
+#scrollback {
+      position: absolute;
+      border: 3px solid white;
+      /* box-shadow: 3px 2px #29a3a3; */
+      top: 9900px;
+      left: 670px;
+      width: 120px;
+      height: 50px;
+      /* padding: 25px; */
+      background-color: #660000;
+      text-align: center;
+}
