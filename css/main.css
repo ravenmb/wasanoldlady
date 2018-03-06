@@ -18,7 +18,6 @@ h3 {font-size: .85em;
     line-height: 1.25em;
     color: white;}
 
-
 #canvas {
           /* border: 1px solid blue; */
           position: relative;
@@ -27,6 +26,7 @@ h3 {font-size: .85em;
           height: 10000px;
           padding: 0px;
       }
+
 #counter {
           border: 3px solid white;
           box-shadow: 3px 2px #29a3a3;
@@ -207,7 +207,7 @@ h3 {font-size: .85em;
       position: absolute;
       border: 3px solid white;
       /* box-shadow: 3px 2px #29a3a3; */
-      top: 9900px;
+      bottom: 0px;
       left: 670px;
       width: 120px;
       height: 50px;
