@@ -152,55 +152,55 @@ h3 {font-size: .85em;
         position: absolute;
         top: 215px;
         /* left: -10px; */
-        left: -500px;
+        left: -1500px;
         }
 
 #spiderfly {
         position: absolute;
         top: 225px;
         /* left: -15px; */
-        left: -500px;
+        left: -1500px;
         }
 
 #birdfly {
         position: absolute;
         top: 245px;
         /* left: -40px; */
-        left: -500px;
+        left: -1500px;
         }
 
 #catfly {
         position: absolute;
         top: 290px;
         /* left: -40px; */
-        left: -500px;
+        left: -1500px;
           }
 #dogfly {
           position: absolute;
           top: 365px;
           /* left: -60px; */
-          left: -500px;
+          left: -1500px;
           }
 
 #goatfly {
           position: absolute;
           top: 435px;
           /* left: -65px; */
-          left: -500px;
+          left: -1500px;
           }
 
 #cowfly {
           position: absolute;
           top: 515px;
           /* left: -80px; */
-          left: -500px;
+          left: -1500px;
             }
 
 #horsefly {
           position: absolute;
           top: 585px;
           /* left: -115px; */
-          left: -500px;
+          left: -1500px;
             }
 
 #scrollback {
