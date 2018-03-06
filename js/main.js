@@ -43,10 +43,10 @@ storycontainer.style.WebkitTransform = "translateY(" + fromTop + "px)";
 storycontainer.style.transform = "translateY(" + fromTop + "px)";
 
 //-ms-transform: translate(); /* IE 9 */
-flyfly.style.msTransform = "translateY(" + fromTop + "px)";
+//flyfly.style.msTransform = "translateY(" + fromTop + "px)";
 //-webkit-transform: translate(); /* Safari */
-flyfly.style.WebkitTransform = "translateY(" + fromTop + "px)";
-flyfly.style.transform = "translateY(" + fromTop + "px)";
+//flyfly.style.WebkitTransform = "translateY(" + fromTop + "px)";
+//flyfly.style.transform = "translateY(" + fromTop + "px)";
 
 
 if(fromTop > -10 && fromTop < 350){
