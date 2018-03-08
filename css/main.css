@@ -5,7 +5,7 @@
 font-family: 'Oswald', sans-serif; */
 
 body {font-family: 'Arvo', serif;
-      background: linear-gradient(to bottom, #adebeb 0%, #ffffcc 50%, #ffcc66 92%, #e60000 100%);
+      background: linear-gradient(to bottom, #adebeb 0%, #ffffcc 50%, #ffcc66 91%, #e60000 100%);
       color: white;}
 
 h1, h2, h3, h4 {
@@ -27,9 +27,9 @@ h3 {font-size: .85em;
           padding: 0px;
       }
 
-#counter {
-          border: 3px solid white;
-          box-shadow: 3px 2px #29a3a3;
+#title {
+          /* border: 3px solid white;
+          box-shadow: 3px 2px #29a3a3; */
           position: absolute;
           top: 20px;
           left: 0px;
@@ -39,12 +39,12 @@ h3 {font-size: .85em;
           height: auto;
           text-align: left;
           line-height: 45px;
-          background-color: #adebeb;
+        /*  background-color: #adebeb; */
         }
 
 #storycontainer {
-          border: 3px solid white;
-          box-shadow: 3px 2px #29a3a3;
+          /* border: 3px solid white;
+          box-shadow: 3px 2px #29a3a3; */
           position: absolute;
           top: 320px;
           left: 575px;
@@ -54,7 +54,7 @@ h3 {font-size: .85em;
           height: auto;
           text-align: right;
           line-height: 35px;
-          background-color: #adebeb;
+          /* background-color: #adebeb; */
                 }
 
 #lady {
