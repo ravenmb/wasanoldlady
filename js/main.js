@@ -158,7 +158,7 @@ function scrollFunction() {
 }
 // When the user clicks on the scrollback button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = offset;
-    document.documentElement.scrollTop = offset;
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 
 }
