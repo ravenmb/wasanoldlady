@@ -9,6 +9,7 @@ var story = document.getElementById('story');
 var flyfly = document.getElementById('flyfly');
 var fromTop = window.pageYOffset;
 var windowHt = window.innerHeight;
+var offset = windowHt - 726;
 
 //when user scrolls, update variable fromTop to change stuff on page
 //window.onscroll is a boolean (yes/no)
@@ -21,6 +22,7 @@ window.onscroll = function(){
 fromTop = window.pageYOffset;
 //test if it works
 console.log(fromTop);
+console.log(windowHt);
 //scroll to top button
 scrollFunction();
 
@@ -146,7 +148,7 @@ if(fromTop > -10 && fromTop < 350){
 }
 
 function scrollFunction() {
-    if (document.body.scrollTop > 8650 || document.documentElement.scrollTop > 8650) {
+    if (document.body.scrollTop > 9000 || document.documentElement.scrollTop > 9000) {
         document.getElementById("scrollback").style.display = "block";
     } else {
         document.getElementById("scrollback").style.display = "none";
@@ -154,6 +156,6 @@ function scrollFunction() {
 }
 // When the user clicks on the scrollback button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = offset;
+    document.documentElement.scrollTop = offset;
 }
