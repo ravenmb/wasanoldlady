@@ -215,3 +215,7 @@ h3 {font-size: .85em;
       background-color: #660000;
       text-align: center;
 }
+
+footer {
+        bottom: 0px;
+}

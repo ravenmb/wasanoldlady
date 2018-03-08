@@ -7,6 +7,7 @@ var ladyimg = document.getElementById('ladyimg');
 var storycontainer = document.getElementById('storycontainer');
 var story = document.getElementById('story');
 var scrollback = document.getElementById('scrollback');
+var footer = document.getElementById('footer');
 var flyfly = document.getElementById('flyfly');
 var fromTop = window.pageYOffset;
 var windowHt = window.innerHeight;
@@ -149,9 +150,10 @@ if(fromTop > -10 && fromTop < 350){
 }
 
 function scrollFunction() {
-    if (document.body.scrollTop > 9000 || document.documentElement.scrollTop > 9000) {
+    if (document.body.scrollTop > 8000 || document.documentElement.scrollTop > 8000) {
         scrollback.style.display = "block";
         scrollback.style.bottom = offset + "px";
+        footer.style.bottom = offset + "px";
     } else {
         scrollback.style.display = "none";
     }
