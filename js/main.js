@@ -6,6 +6,7 @@ var lady = document.getElementById('lady');
 var ladyimg = document.getElementById('ladyimg');
 var storycontainer = document.getElementById('storycontainer');
 var story = document.getElementById('story');
+var scrollback = document.getElementById('scrollback');
 var flyfly = document.getElementById('flyfly');
 var fromTop = window.pageYOffset;
 var windowHt = window.innerHeight;
@@ -135,10 +136,10 @@ if(fromTop > -10 && fromTop < 350){
   story.innerHTML = "who swallowed a horse.";
 }else if(fromTop > 9110 && fromTop < 10000){
   title.innerHTML = "She's dead, of course!";
-//  title.style.backgroundColor="#660000";
+  title.style.color="#660000";
   ladyimg.src = 'images/old-lady-dead2.png';
   story.innerHTML = "<center>The End.</center>";
-//  storycontainer.style.backgroundColor='#660000';
+  storycontainer.style.color='#660000';
 }else{
   title.innerHTML = "There was an Old Lady...";
 //  title.style.backgroundColor="#adebeb";
@@ -149,13 +150,15 @@ if(fromTop > -10 && fromTop < 350){
 
 function scrollFunction() {
     if (document.body.scrollTop > 9000 || document.documentElement.scrollTop > 9000) {
-        document.getElementById("scrollback").style.display = "block";
+        scrollback.style.display = "block";
+        scrollback.style.bottom = offset + "px";
     } else {
-        document.getElementById("scrollback").style.display = "none";
+        scrollback.style.display = "none";
     }
 }
 // When the user clicks on the scrollback button, scroll to the top of the document
 function topFunction() {
     document.body.scrollTop = offset;
     document.documentElement.scrollTop = offset;
+
 }
