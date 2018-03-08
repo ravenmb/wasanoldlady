@@ -129,12 +129,12 @@ if(fromTop > -10 && fromTop < 350){
 //  title.style.backgroundColor="#cc0000";
   ladyimg.src = 'images/old-lady-closed.png';
   story.innerHTML = "<h3>to catch the goat.<br />She swallowed the goat<br />to catch the dog.<br />She swallowed the dog<br />to catch the cat.<br />She swallowed the cat<br />to catch the bird.<br />She swallowed the bird<br />to catch the spider.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.</h3>";
-}else if(fromTop > 8180 && fromTop < 9110){
+}else if(fromTop > 8180 && fromTop < 9000){
   title.innerHTML = "There was an Old Lady...";
 //  title.style.backgroundColor="#adebeb";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a horse.";
-}else if(fromTop > 9110 && fromTop < 10000){
+}else if(fromTop > 9000 && fromTop < 10000){
   title.innerHTML = "She's dead, of course!";
   title.style.color="#660000";
   ladyimg.src = 'images/old-lady-dead2.png';
