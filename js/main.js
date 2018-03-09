@@ -7,8 +7,8 @@ var ladyimg = document.getElementById('ladyimg');
 var storycontainer = document.getElementById('storycontainer');
 var story = document.getElementById('story');
 var scrollback = document.getElementById('scrollback');
-var footer = document.getElementById('footer');
-var flyfly = document.getElementById('flyfly');
+// var footer = document.getElementById('footer');
+// var flyfly = document.getElementById('flyfly');
 var fromTop = window.pageYOffset;
 var windowHt = window.innerHeight;
 var offset = windowHt - 726;
@@ -54,7 +54,7 @@ storycontainer.style.transform = "translateY(" + fromTop + "px)";
 
 
 if(fromTop > -10 && fromTop < 350){
-  title.innerHTML = "There was an Old Lady...";
+  title.innerHTML = "(There was an Old Lady)...";
   //title.style.backgroundColor="#adebeb";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a fly.<br /> (scroll &#8595;)";
@@ -125,21 +125,21 @@ if(fromTop > -10 && fromTop < 350){
 //  title.style.backgroundColor="#adebeb";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a cow.<br />I don't know how<br />she swallowed a cow!";
-}else if(fromTop > 7650 && fromTop < 8180){
+}else if(fromTop > 7650 && fromTop < 8000){
   title.innerHTML = "She swallowed the cow...";
 //  title.style.backgroundColor="#cc0000";
   ladyimg.src = 'images/old-lady-closed.png';
   story.innerHTML = "<h3>to catch the goat.<br />She swallowed the goat<br />to catch the dog.<br />She swallowed the dog<br />to catch the cat.<br />She swallowed the cat<br />to catch the bird.<br />She swallowed the bird<br />to catch the spider.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.</h3>";
-}else if(fromTop > 8180 && fromTop < 9000){
+}else if(fromTop > 8000 && fromTop < 8450){
   title.innerHTML = "There was an Old Lady...";
 //  title.style.backgroundColor="#adebeb";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a horse.";
-}else if(fromTop > 9000 && fromTop < 10000){
-  title.innerHTML = "She's dead, of course!";
+}else if(fromTop > 8450 && fromTop < 10000){
+  title.innerHTML = "(She's dead, of course)";
   title.style.color="#660000";
   ladyimg.src = 'images/old-lady-dead2.png';
-  story.innerHTML = "<center>The End.</center>";
+  story.innerHTML = "<center>She's dead,<br />of course!</center>";
   storycontainer.style.color='#660000';
 }else{
   title.innerHTML = "There was an Old Lady...";
@@ -150,10 +150,9 @@ if(fromTop > -10 && fromTop < 350){
 }
 
 function scrollFunction() {
-    if (document.body.scrollTop > 8000 || document.documentElement.scrollTop > 8000) {
+    if (document.body.scrollTop > 8630 || document.documentElement.scrollTop > 8630) {
         scrollback.style.display = "block";
-        scrollback.style.bottom = offset + "px";
-        footer.style.bottom = offset + "px";
+        scrollback.style.top = "9950px";
     } else {
         scrollback.style.display = "none";
     }
