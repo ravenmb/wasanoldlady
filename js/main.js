@@ -54,13 +54,14 @@ storycontainer.style.transform = "translateY(" + fromTop + "px)";
 
 
 if(fromTop > -10 && fromTop < 350){
+  title.style.color = "darkgray";
   title.innerHTML = "(There was an Old Lady)...";
   //title.style.backgroundColor="#adebeb";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a fly.<br /> (scroll &#8595;)";
 //  storycontainer.style.backgroundColor="#adebeb";
 }else if(fromTop > 350 && fromTop < 715){
-  title.innerHTML = "There was an Old Lady...";
+  title.innerHTML = "(There was an Old Lady)...";
 //  title.style.backgroundColor="#adebeb";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a fly.<br /> (scroll &#8595;)";
@@ -89,7 +90,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "She swallowed the bird...";
 //  title.style.backgroundColor="#ff4d4d";
   ladyimg.src = 'images/old-lady-closed.png';
-  story.innerHTML = "to catch the spider.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why<br />she swallowed the fly,<br />perhaps she'll die.";
+  story.innerHTML = "to catch the spider.<br />that wriggled, and jiggled,<br />and wiggled inside her.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why<br />she swallowed the fly,<br />perhaps she'll die.";
 }else if(fromTop > 2695 && fromTop < 3300){
   title.innerHTML = "There was an Old Lady...";
 //  title.style.backgroundColor="#adebeb";
@@ -99,7 +100,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "She swallowed the cat...";
 //  title.style.backgroundColor="#ff3333";
   ladyimg.src = 'images/old-lady-closed.png';
-  story.innerHTML = "to catch the bird.<br />She swallowed the bird<br />to catch the spider.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.";
+  story.innerHTML = "to catch the bird.<br />She swallowed the bird<br />to catch the spider.<br />that wriggled, and jiggled,<br />and wiggled inside her.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.";
 }else if(fromTop > 4085 && fromTop < 4780){
   title.innerHTML = "There was an Old Lady...";
 //  title.style.backgroundColor="#adebeb";
@@ -109,7 +110,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "She swallowed the dog...";
 //  title.style.backgroundColor="#ff1a1a";
   ladyimg.src = 'images/old-lady-closed.png';
-  story.innerHTML = "to catch the cat.<br />She swallowed the cat<br />to catch the bird.<br />She swallowed the bird<br />to catch the spider.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.";
+  story.innerHTML = "to catch the cat.<br />She swallowed the cat<br />to catch the bird.<br />She swallowed the bird<br />to catch the spider,<br />that wriggled, and jiggled,<br />and wiggled inside her.<br />She swallowed the spider to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.";
 }else if(fromTop > 5290 && fromTop < 6075){
   title.innerHTML = "There was an Old Lady...";
 //  title.style.backgroundColor="#adebeb";
@@ -119,23 +120,23 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "She swallowed the goat...";
 //  title.style.backgroundColor="#ff0000";
   ladyimg.src = 'images/old-lady-closed.png';
-  story.innerHTML = "<h3>to catch the dog.<br />She swallowed the dog<br />to catch the cat.<br />She swallowed the cat<br />to catch the bird.<br />She swallowed the bird<br />to catch the spider.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.</h3>";
+  story.innerHTML = "to catch the dog.<br />She swallowed the dog<br /> to catch the cat.<br />She swallowed the cat<br /> to catch the bird.<br />She swallowed the bird<br /> to catch the spider,<br />that wriggled, and jiggled,<br />and wiggled inside her.<br />She swallowed the spider to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.";
 }else if(fromTop > 6780 && fromTop < 7650){
   title.innerHTML = "There was an Old Lady...";
 //  title.style.backgroundColor="#adebeb";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a cow.<br />I don't know how<br />she swallowed a cow!";
-}else if(fromTop > 7650 && fromTop < 8000){
+}else if(fromTop > 7650 && fromTop < 7900){
   title.innerHTML = "She swallowed the cow...";
 //  title.style.backgroundColor="#cc0000";
   ladyimg.src = 'images/old-lady-closed.png';
-  story.innerHTML = "<h3>to catch the goat.<br />She swallowed the goat<br />to catch the dog.<br />She swallowed the dog<br />to catch the cat.<br />She swallowed the cat<br />to catch the bird.<br />She swallowed the bird<br />to catch the spider.<br />She swallowed the spider<br />to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.</h3>";
-}else if(fromTop > 8000 && fromTop < 8450){
+  story.innerHTML = "to catch the goat.<br />She swallowed the goat<br />to catch the dog.<br />She swallowed the dog to catch the cat.<br />She swallowed the cat to catch the bird.<br />She swallowed the bird<br />to catch the spider,<br />that wriggled, and jiggled,<br />and wiggled inside her.<br />She swallowed the spider to catch the fly.<br />I don't know why she swallowed the fly.<br />Perhaps she'll die.";
+}else if(fromTop > 7900 && fromTop < 8650){
   title.innerHTML = "There was an Old Lady...";
 //  title.style.backgroundColor="#adebeb";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a horse.";
-}else if(fromTop > 8450 && fromTop < 10000){
+}else if(fromTop > 8650 && fromTop < 10000){
   title.innerHTML = "(She's dead, of course)";
   title.style.color="#660000";
   ladyimg.src = 'images/old-lady-dead2.png';
@@ -152,7 +153,7 @@ if(fromTop > -10 && fromTop < 350){
 function scrollFunction() {
     if (document.body.scrollTop > 8630 || document.documentElement.scrollTop > 8630) {
         scrollback.style.display = "block";
-        scrollback.style.top = "9900px";
+        scrollback.style.top = "9850px";
     } else {
         scrollback.style.display = "none";
     }
