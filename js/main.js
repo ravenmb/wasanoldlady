@@ -120,6 +120,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "(There was an Old Lady)...";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a fly.<br /> (scroll &#8595;)";
+  flyfly.style.left="-1500px";
 
 }else if(fromTop > 715 && fromTop < 930){
   title.innerHTML = "I don't know why...";
@@ -131,17 +132,19 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "There was an Old Lady...";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a spider,<br />that wriggled, and jiggled,<br />and wiggled inside her.";
+  spiderfly.style.left = "-1500px";
 
 }else if(fromTop > 1405 && fromTop < 1700){
   title.innerHTML = "She swallowed the spider...";
   ladyimg.src = 'images/old-lady-closed.png';
   story.innerHTML = "to catch the fly.<br />I don't know why she<br />swallowed the fly!<br />Perhaps she'll die.";
-  spiderfly.style.left="-15px";
+  spiderfly.style.left = "-15px";
 
 }else if(fromTop > 1700 && fromTop < 2225){
   title.innerHTML = "There was an Old Lady...";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a bird.<br />How absurd,<br />to swallow a bird!";
+  birdfly.style.left="-1500px";
 
 }else if(fromTop > 2225 && fromTop < 2695){
   title.innerHTML = "She swallowed the bird...";
@@ -153,6 +156,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "There was an Old Lady...";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a cat.<br />Imagine that,<br />she swallowed a cat!";
+  catfly.style.left="-1500px";
 
 }else if(fromTop > 3300 && fromTop < 4085){
   title.innerHTML = "She swallowed the cat...";
@@ -164,6 +168,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "There was an Old Lady...";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a dog.<br />What a hog,<br />to swallow a dog!";
+  dogfly.style.left="-1500px";
 
 }else if(fromTop > 4780 && fromTop < 5290){
   title.innerHTML = "She swallowed the dog...";
@@ -175,6 +180,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "There was an Old Lady...";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a goat.<br />Just opened her throat,<br />and swallowed a goat!";
+  goatfly.style.left="-1500px";
 
 }else if(fromTop > 6075 && fromTop < 6780){
   title.innerHTML = "She swallowed the goat...";
@@ -186,6 +192,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "There was an Old Lady...";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a cow.<br />I don't know how<br />she swallowed a cow!";
+  cowfly.style.left="-1500px";
 
 }else if(fromTop > 7650 && fromTop < 7900){
   title.innerHTML = "She swallowed the cow...";
@@ -197,6 +204,7 @@ if(fromTop > -10 && fromTop < 350){
   title.innerHTML = "There was an Old Lady...";
   ladyimg.src = 'images/old-lady-2.png';
   story.innerHTML = "who swallowed a horse.";
+  horsefly.style.left = "-1500px";
 
 }else if(fromTop > 8650 && fromTop < 10000){
   title.innerHTML = "(She's dead, of course)";

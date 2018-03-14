@@ -226,7 +226,7 @@ h2 {font-size: 32px;
 
 .flyin {
         position:absolute;
-        transition:left .5s;}
+        transition:left .8s;}
 
 #scrollback {
       position: absolute;
