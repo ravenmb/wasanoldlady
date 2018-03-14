@@ -219,10 +219,14 @@ h2 {font-size: 32px;
 
 #horsefly {
           position: absolute;
-          top: 585px;
+          top: 60px;
           /* left: -115px; */
           left: -1500px;
             }
+
+.flyin {
+        position:absolute;
+        transition:left .5s;}
 
 #scrollback {
       position: absolute;
