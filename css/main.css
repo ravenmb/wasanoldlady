@@ -49,6 +49,7 @@ h2 {font-size: 32px;
       position: relative;
       margin: 0 auto;
       width: 900px;
+      align: center;
       height: 750px;
       padding: 20px;
 }
