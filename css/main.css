@@ -70,6 +70,23 @@ h2 {font-size: 32px;
         /*  background-color: #adebeb; */
         }
 
+#title2 {
+          /* border: 3px solid white;
+          box-shadow: 3px 2px #29a3a3; */
+          font-family: 'sweet_hipsterregular';
+          font-size: 60px;
+          line-height: 45px;
+          position: absolute;
+          top: 20px;
+          left: 325px;
+          margin: 0px;
+          padding: 20px;
+          width: 200px;
+          height: auto;
+          text-align: center;
+        /*  background-color: #adebeb; */
+        }
+
 #lady {
           /* border: 1px solid green; */
             position: absolute;
