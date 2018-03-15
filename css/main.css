@@ -26,14 +26,12 @@ body {font-family: 'letters_for_learnersregular',sans-serif;
       color: darkgray;}
 
 h1, h2, h3, h4 {
-          /* text-shadow: 3px 2px #29a3a3; */
           padding: 0px;
           margin: 0px;
           font-weight: normal;
       }
 
 h2 {font-size: 32px;
-    /* line-height: 1.25em; */
     color: black;}
 
 #canvas {
@@ -46,10 +44,11 @@ h2 {font-size: 32px;
       }
 
 #aboutcanvas {
-      position: fixed;
+    /* border: 1px solid blue; */
+      position: relative;
       margin: 0 auto;
       width: 1000px;
-      height: 750px;
+      height: 800px;
       padding: 20px;
 }
 
